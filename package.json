@@ -2,7 +2,7 @@
   "name": "eslint-config-stipsan",
   "version": "1.0.0",
   "description": "The eslint config of airbnb extended and modified to my own preferences",
-  "main": "index.js",
+  "main": ".eslintrc.yml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
