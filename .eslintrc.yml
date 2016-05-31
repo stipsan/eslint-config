@@ -30,7 +30,7 @@ rules:
     - only-multiline
   comma-spacing: error
   comma-style: error
-  complexity: warn
+  complexity: error
   curly: error
   default-case: error
   dot-location:
@@ -40,8 +40,8 @@ rules:
   eqeqeq: error
   global-require: error
   handle-callback-err: error
-  import/newline-after-import: warn
-  import/no-extraneous-dependencies: warn
+  import/newline-after-import: error
+  import/no-extraneous-dependencies: error
   import/no-mutable-exports: error
   indent:
     - error
@@ -89,7 +89,7 @@ rules:
   no-unused-vars: error
   no-useless-call: error
   no-useless-concat: error
-  no-warning-comments: warn
+  no-warning-comments: error
   padded-blocks: off
   prefer-arrow-callback:
     - error
@@ -139,14 +139,14 @@ rules:
   react/self-closing-comp: error
   react/sort-comp: error
   react/sort-prop-types:
-    - warn
+    - error
     - ignoreCase: true
   react/wrap-multilines: off
   semi:
     - error
     - never
   sort-imports: off
-  sort-vars: warn
+  sort-vars: error
   yoda:
     - error
     - always
