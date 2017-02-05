@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/stipsan/eslint-config#readme",
   "dependencies": {
-    "eslint-config-airbnb": "14.0.0"
+    "eslint-config-airbnb": "14.1.0"
   }
 }
